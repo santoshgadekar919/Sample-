@@ -52,7 +52,10 @@ public void googleTitleTest() {
 public void searchTest() {
 	System.out.println("@Test-----Search test");	
 }
-
+@Test 
+public void LoginPageTest() {
+	System.out.println("@Test-----Login Page test");	
+}
 //Post-conditions annotations--starting with @After
 @AfterMethod //6
 public void logOut() {
